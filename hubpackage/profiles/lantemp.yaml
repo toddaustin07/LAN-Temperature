@@ -1,0 +1,53 @@
+name: lantemp.v1
+components:
+- id: main
+  capabilities:
+    - id: temperatureMeasurement
+      version: 1
+    - id: relativeHumidityMeasurement
+      version: 1
+    - id: partyvoice23922.createanother
+      version: 1
+  categories:
+    - name: Thermostat
+preferences:
+  - title: "LAN Device Name"
+    name: devicename
+    description: "Identifying name of LAN device"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 3
+      maxLength: 36
+      default: "mydevice"
+  - title: "LAN Device Address"
+    name: deviceaddr
+    description: "IP address of LAN device"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 7
+      maxLength: 21
+      default: "192.168.1.n:pppp"
+  - title: "Bridge Address"
+    name: bridgeaddr
+    description: "IP:Port addr of Edge Bridge"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 10
+      maxLength: 21
+      default: "192.168.1.n:8088"
+  - title: "Received Temperature Units"
+    name: rtempunit
+    description: "Temperature Units"
+    required: true
+    preferenceType: enumeration
+    definition:
+      options:
+        C: "Celsius"
+        F: "Fahrenheit"
+      default: C
