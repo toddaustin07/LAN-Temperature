@@ -3,7 +3,7 @@ SmartThings Edge driver to support LAN-based apps to send temperature &amp; humi
 
 This driver requires my Edgebridge server to provide a fixed network address for the sending application to use, since the application cannot know the IP:Port address of the Edge driver running on the SmartThings hub.
 
-The sending application (the application running on your LAN that will be sending the temperature and humidity readings) must provide the flexibility to define the HTTP method (POST) and URL use.  This driver will not work with applications that have fixed URL formats.
+The sending application (the application running on your LAN that will be sending the temperature and humidity readings) must provide the flexibility to define the HTTP method (POST) and URL use.  This driver will not work with applications that have fixed, or otherwise non-configurable URL formats.
 
 
 ## Prerequisites
