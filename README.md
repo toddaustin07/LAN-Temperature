@@ -15,6 +15,8 @@ Enroll your hub in my test channel here.  Once enrolled, choose the **LAN Temp-H
 
 Once the driver is available on your hub, the next time you perform an Add device / Scan for nearby devices from the SmartThings app, a new device will be created and found in the Room where your hub device is located, called 'LAN Temp&Humdity Device'.
 
+Ensure that Edgebridge is installed and running on a LAN computer.  See the [README file](https://github.com/toddaustin07/edgebridge/blob/main/README.md) for more information.
+
 ## Configuration
 Open the LAN Temp&Humidity Device to the Controls screen and tap the vertical-3-dot menu icon in the upper right corner and select **Settings**.
 
