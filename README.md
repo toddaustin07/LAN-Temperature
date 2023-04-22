@@ -31,6 +31,8 @@ Configure the options as follows:
 * Received Temperature Unit - used to identify the temperature reading units as received from the sending application
   - Choose Celsius or Fahrenheit
 
+At this point the Driver should have successfully registered with Edgebridge.  Monitor the Edgebridge console output or log file to confirm.
+
 ## Sending application HTTP request format
 
 The sending application must use the following format when sending the temperature or humidity readings to the Edge driver:
