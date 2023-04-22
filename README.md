@@ -1,4 +1,4 @@
-# LAN-Temperature
+# LAN Temperature & Humidity Driver
 SmartThings Edge driver to support LAN-based apps to send temperature &amp; humidity to a SmartThings device via an HTTP POST request.
 
 This driver requires my Edgebridge server to provide a fixed network address for the sending application to use, since the application cannot know the IP:Port address of the Edge driver running on the SmartThings hub.
